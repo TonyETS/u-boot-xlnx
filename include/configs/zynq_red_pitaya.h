@@ -40,7 +40,7 @@
     "fdt_high=0x20000000\0" \
     "initrd_high=0x20000000\0" \
     "sdboot=echo Running script from SD... && mmcinfo && fatload mmc 0 0x2000000 u-boot.scr && source 0x2000000\0" \
-    "ethaddr=00:26:32:F0:67:95\0" \
+    "ethaddr=00:26:32:08:11:87\0" \
     "nav_code=4702\0" \
     "hw_rev=STEM_125-14_v1.0\0" \
     "serial=16240000\0"
