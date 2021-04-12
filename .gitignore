@@ -84,3 +84,6 @@ GTAGS
 *.orig
 *~
 \#*#
+/fpga/*.jou
+/fpga/*.log
+/fpga/.gitignore
