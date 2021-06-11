@@ -31,7 +31,7 @@ puts "Project name: $prj_name"
 # setup an in memory project
 ################################################################################
 
-set part xc7z020clg400-2
+set part xc7z020clg400-3
 
 create_project -part $part -force redpitaya ./project
 
