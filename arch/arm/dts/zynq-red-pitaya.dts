@@ -14,8 +14,8 @@
 
 	aliases {
 		ethernet0 = &gem0;
-		serial0 = &uart1;
-		/*serial0 = &uart0;*/
+		/*serial0 = &uart1;*/
+		serial0 = &uart0;
 	};
 
 	memory {
@@ -53,14 +53,14 @@
 	status = "okay";
 };
 
-&uart1 {
-	u-boot,dm-pre-reloc;
-	status = "okay";
-};
-/*&uart0 {
+/*&uart1 {
 	u-boot,dm-pre-reloc;
 	status = "okay";
 };*/
+&uart0 {
+	u-boot,dm-pre-reloc;
+	status = "okay";
+};
 &usb0 {
 	status = "okay";
 	dr_mode = "host";
