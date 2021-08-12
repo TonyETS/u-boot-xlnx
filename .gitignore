@@ -86,3 +86,7 @@ GTAGS
 \#*#
 /fpga/.gitignore
 /fpga/.gitignore
+/fpga/project
+/fpga/vivado.jou
+/fpga/vivado.log
+fpga/NA/ps7_summary.html
